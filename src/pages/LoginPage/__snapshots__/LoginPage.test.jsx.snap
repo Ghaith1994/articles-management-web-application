@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly without crashing 1`] = `
+<div
+  className="col-md-6 col-md-offset-3"
+>
+  <h2>
+    Login
+  </h2>
+  <form
+    name="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="username"
+      >
+        Username
+      </label>
+      <input
+        className="form-control"
+        name="username"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        name="password"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="btn btn-primary"
+      >
+        Login
+      </button>
+      <a
+        className="btn btn-link"
+        href="/register"
+        onClick={[Function]}
+      >
+        Register
+      </a>
+    </div>
+  </form>
+</div>
+`;

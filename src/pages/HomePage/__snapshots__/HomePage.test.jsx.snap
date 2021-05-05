@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly without crashing 1`] = `
+<div
+  className="col-md-12 col-md-offset-12"
+>
+  <h1>
+    Hi 
+    
+    !
+  </h1>
+  <h3>
+    All saved articles:
+  </h3>
+  <em>
+    Loading articles...
+  </em>
+  <table
+    className="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Title
+        </th>
+        <th>
+          Content
+        </th>
+        <th>
+          Date
+        </th>
+        <th />
+      </tr>
+    </thead>
+  </table>
+  <p>
+    <a
+      className="btn btn-success"
+      href="/form-article"
+      onClick={[Function]}
+    >
+      Add New Article
+    </a>
+  </p>
+  <p>
+    <a
+      className="btn btn-info"
+      href="/login"
+      onClick={[Function]}
+    >
+      Logout
+    </a>
+  </p>
+</div>
+`;
